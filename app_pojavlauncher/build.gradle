@@ -100,7 +100,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.maxjubayeryt.copper"
+        applicationId "com.itschittumemes.copperreborn"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 10000000
