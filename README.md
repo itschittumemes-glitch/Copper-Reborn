@@ -3,19 +3,9 @@
 <img src="https://github.com/CopperLauncher/Copper-Android/blob/v3_openjdk/app_pojavlauncher/src/main/assets/pojavlauncher.png" align="left" width="130" height="130" alt="Copper logo">
 
 
-> Copper Launcher is an app that h
+> Copper Launcher is a launcher that allows you to play Minecraft: Java Edition on your Android device!
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/CopperLauncher/Copper-Android)
-![GitHub Downloads](https://img.shields.io/github/downloads/CopperLauncher/Copper-Android/total)
-![Platform](https://img.shields.io/badge/platform-Android-green)
-![Min SDK](https://img.shields.io/badge/minSdk-26-blue)
-![Android CI](https://github.com/CopperLauncher/Copper-Android/workflows/Android%20CI/badge.svg)
-![Crowdin](https://badges.crowdin.net/pojavlauncher/localized.svg)
-[![Discord](https://img.shields.io/discord/1355213558631366897?color=5865F2&logo=discord&logoColor=white&label=&style=flat)](https://discord.gg/j8GTQv3YvY)
-[![CurseForge](https://img.shields.io/badge/curseforge-maxjubayeryt-orange?logo=curseforge)](https://www.curseforge.com/members/maxjubayeryt/projects)
-[![Modrinth](https://img.shields.io/badge/modrinth-maxjubayeryt-green?logo=modrinth)](https://modrinth.com/user/maxjubayeryt)
-
-Copper is a fork of [Amethyst](https://github.com/AngelAuraMC/Amethyst-Android) that allows you to play Minecraft: Java Edition on your Android devices.
+Copper is a fork of [Copper-AAMC] that allows you to play Minecraft: Java Edition on your Android devices.
 
 ## Table of Contents
 
@@ -35,7 +25,7 @@ Copper is a fork of [Amethyst](https://github.com/AngelAuraMC/Amethyst-Android) 
 
 ## Introduction
 
-* Copper is a Minecraft: Java Edition launcher for Android based on [Boardwalk](https://github.com/zhuowei/Boardwalk), [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) and [Amethyst Launcher](https://github.com/AngelAuraMC/Amethyst-Android).
+* Copper is a Minecraft: Java Edition launcher for Android based on [Boardwalk](https://github.com/zhuowei/Boardwalk), [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher), [Amethyst Launcher](https://github.com/AngelAuraMC/Amethyst-Android).
 * This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 26.x snapshots (including Combat Test versions)
 * Modding via Forge and Fabric are also supported.
 * This repository contains source code for Android.
