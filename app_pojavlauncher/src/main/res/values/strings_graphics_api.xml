@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Graphics API Selection -->
+    <string name="pedit_graphics_api">Graphics API</string>
+    <string name="graphics_api_automatic">Automatic</string>
+    <string name="graphics_api_opengl">OpenGL (ES)</string>
+    <string name="graphics_api_vulkan">Vulkan</string>
+    <string name="graphics_api_description_automatic">Automatically select best available API</string>
+    <string name="graphics_api_description_opengl">Use OpenGL ES (default, best compatibility)</string>
+    <string name="graphics_api_description_vulkan">Use Vulkan (requires device support, potentially better performance)</string>
+</resources>
