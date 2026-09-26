@@ -21,6 +21,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
+import java.net.ProtocolException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
@@ -123,7 +124,7 @@ public class ElyByBackgroundLogin {
     /**
      * Authenticate with username and password
      */
-    private JSONObject authenticate(String username, String password) throws IOException, JSONException {
+    private JSONObject authenticate(String username, String password) throws IOException, JSONException, ProtocolException {
         URL url = new URL(ELY_BY_AUTH_URL);
 
         JSONObject data = new JSONObject();
@@ -156,7 +157,7 @@ public class ElyByBackgroundLogin {
     /**
      * Refresh access token using refresh token
      */
-    private JSONObject refreshToken() throws IOException, JSONException {
+    private JSONObject refreshToken() throws IOException, JSONException, ProtocolException {
         URL url = new URL(ELY_BY_REFRESH_URL);
 
         JSONObject data = new JSONObject();
@@ -188,7 +189,7 @@ public class ElyByBackgroundLogin {
     /**
      * Validate token with Ely.by server
      */
-    public static boolean validateToken(String accessToken) throws IOException, JSONException {
+    public static boolean validateToken(String accessToken) throws IOException, JSONException, ProtocolException {
         URL url = new URL(ELY_BY_VALIDATE_URL);
 
         JSONObject data = new JSONObject();
@@ -212,7 +213,7 @@ public class ElyByBackgroundLogin {
     /**
      * Set common properties for the connection
      */
-    private static void setCommonProperties(HttpURLConnection conn, String data) {
+    private static void setCommonProperties(HttpURLConnection conn, String data) throws ProtocolException {
         conn.setRequestProperty("Content-Type", "application/json");
         conn.setRequestProperty("Accept", "application/json");
         conn.setRequestProperty("charset", "utf-8");
